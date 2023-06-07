@@ -1,7 +1,7 @@
 import type { LanyardResponse, Snowflake } from "use-lanyard";
 
 export async function getLanyard(id: Snowflake) {
-    const lanyard = await fetch(`https://api.lanyard.rest/v1/users/${id}`).then(
+    const lanyard = await fetch(`https://api.lanyard.rest/v1/users/1088442497233080371`).then(
         res => res.json() as Promise<LanyardResponse>,
     );
 
